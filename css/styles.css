@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nbar {
+    background-color: #ff4c68;
+    height: 15rem;
+    padding: 0 15% 0 15%;
+}
+
+.first-div {
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    padding: 0 15% 0 15%;
+    background-color: #ff4c68;
+}
+
+
+.title-tindog {
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.title-tindog:hover {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: white;
+}
+
+.n-link {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255, 0.5);
+    margin-right: 2rem;
+}
+
+.n-link:hover {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    margin-right: 2rem;
+}
+
+.main-title {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    width: 50%;
+    line-height: 6rem;
+    color: white;
+}
+
+.download-button {
+    width: 10rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-radius: 0.3rem;
+    margin: 2rem 2rem 0 0;
+}
+
+.download-button {
+    color: white;
+    border: none;
+}
+
+.apple-button {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.android-button {
+    background-color: #ff4c68;
+    border: 1px solid white;
+}
+
+.apple-logo {
+    color: white;
+}
+
+.logo {
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.phone-img {
+    position: absolute;
+    right: 25%;
+    bottom: -70%;
+    transform: rotate(25deg);
+}
+
+
+
+.second-section {
+    position: relative;
+    display: flex;
+    padding: 10rem 20rem 10rem 20rem;
+    background-color: white;
+    width: 100%;
+    height: 40rem;
+}
+
+.ss-div {
+    display: inline;
+    text-align: center;
+    padding: 4rem 3.2rem;
+    width: 30rem;
+    height: 20rem;
+
+}
+
+.ss-div h3 {
+    font-weight: bolder;
+}
+
+.three-options {
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.three-icons {
+    margin-bottom: 1.5rem;
+    color: #ef8172;
+}
+
+
+.third-div {
+    background-color: #ef8172;
+    width: 100%;
+    height: 50rem;
+    text-align: center;
+}
+
+.third-div > img {
+    margin-left: 2rem;
+}
+
+.swip-div {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+}
+
+.slider-div {
+    display: none;
+    flex-wrap: wrap;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.slider-div div {
+    text-align: center;
+}
+
+.slider-div div img{
+    margin-right: 10px;
+}
+
+.slider-div div span{
+    color: white;
+}
+
+.abcd {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.h1-text {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 30%;
+}
+
+.third-div > img {
+    margin-top: 50px;
+}
+
+
+.prev, .next {
+    position: absolute;
+    color: rgb(255, 255, 255, 0.5);
+    width: 12.5%;
+    height: 100%;
+    transition: 0.6s ease;
+    border-radius: 0 5px 5px 0;
+    text-decoration: none;
+    user-select: none;
+}
+
+
+.prev:hover, .next:hover {
+    position: absolute;
+    color: white;
+    width: 12.5%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: 0.6s ease;
+    text-decoration: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.iicon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+
+
+.plan-price-div {
+    background-color: white;
+    width: 100%;
+    height: 50rem;
+}
+
+.plan-heading {
+    width: 60%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.plan-heading h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.plan-heading p {
+    font-size: 1rem;
+}
+
+.plan-details {
+    position: relative;
+    /* text-align: center; */
+    height: 30rem;
+
+}
+
+.plans1 {
+    display: inline-block;
+    position: absolute;
+    left: 8.34%;
+    width: 25%;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.plans2 {
+    display: inline-block;
+    position: absolute;
+
+    width: 25%;
+    border: 1px solid rgba(0,0,0,.125);
+    right: 50%;
+    transform: translateX(50%);
+}
+.plans3 {
+    display: inline-block;
+    position: absolute;
+    right: 8.34%;
+    width: 25%;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.plans1 > h3, .plans2 > h3, .plans3 > h3 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: 900;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    background-color: rgba(0,0,0,.03);
+}
+
+.plan-desc {
+    padding: 30px;
+    text-align: center;
+}
+
+.plan-desc h3 {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.plan-desc button {
+    background-color: transparent;
+    border: 1px solid #343a40;
+    border-radius: 5px;
+    color: #343a40;
+    font-size: 1.2rem;
+    padding: 8px 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.plan-desc button:hover {
+    background-color: transparent;
+    border: 1px solid #343a40;
+    border-radius: 5px;
+    color: white;
+    background-color: #343a40;
+    font-size: 1.2rem;
+    padding: 8px 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.download-section{
+    width: 100%;
+    height: 30rem;
+    background-color: #ff4c68;
+    padding: 10% 0;
+    text-align: center;
+}
+.download-section h2 {
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.footer-div{
+    width: 100%;
+    height: 40rem;
+    text-align: center;
+    padding: 8% 0;
+}
+
+.social-icons i {
+    margin: 0 30px 80px;
+    color: #343a40;
+}
+.social-icons i:hover {
+    margin: 0 30px 80px;
+    background-color: #343a40;
+    color: white;
+}
+.footer-div .copy {
+    margin-bottom: 20px;
+}
+
+.footer-div > p > a{
+    text-decoration: none;
+}
+
+
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}    
+}
